@@ -12,9 +12,9 @@ class student(val name: String, val age: Int) : study {
     }
 }
 
-fun doStudy(study: study?) {
-    study?.readbook()
-    study?.dohomework()
+fun doStudy(study: study) {
+    study.readbook()
+    study.dohomework()
 }
 
 fun main() {

@@ -13,8 +13,10 @@ class student(val name: String, val age: Int) : study {
 }
 
 fun doStudy(study: study?) {
-    study?.readbook()
-    study?.dohomework()
+    if(study != null){
+        study.readbook()
+        study.dohomework()
+    }
 }
 
 fun main() {

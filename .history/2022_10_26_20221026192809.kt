@@ -1,9 +1,9 @@
-interface study {
+interface Study {
     fun dohomework()
     fun readbook()
 }
 
-class student(val name: String, val age: Int) : study {
+class Student(val name: String, val age: Int) : Study {
     override fun dohomework() {
         println(name + "is doing homework.")
     }
@@ -12,9 +12,9 @@ class student(val name: String, val age: Int) : study {
     }
 }
 
-fun doStudy(study: study?) {
-    study?.readbook()
-    study?.dohomework()
+fun doStudy(study: Study) {
+    study.readbook()
+    study.dohomework()
 }
 
 fun main() {
@@ -47,6 +47,6 @@ fun main() {
     println(anyresult)
     println(allresult)
 
-    val student = student("Jack", 17)
+    val student = Student("Jack", 17)
     doStudy(student)
 }
