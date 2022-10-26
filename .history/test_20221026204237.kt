@@ -5,16 +5,11 @@ fun printUpperCase(){
 	println(uppertext)
 }
 
-fun test(name:String, age:Int = 12){
-	println(name)
-	println(age)
-}
-
 fun main(){
 	if(text != null){
 		printUpperCase()
 	}
 	val name = "Jack"
 	println("Hello, $name.")
-	println("Hello, ${name}.")
+	println("Hello, ${obj.name}.")
 }
