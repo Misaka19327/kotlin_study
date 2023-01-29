@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a normal activity."/>
+
+    <Button
+        android:id="@+id/startMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open the MainActivity." />
+
+    <Button
+        android:id="@+id/startDialogActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open the DialogActivity." />
+
+    <Button
+        android:id="@+id/finishAllActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish All Activity." />
+
+</LinearLayout>
