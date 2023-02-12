@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CommonComposableTest</string>
+    <string name="title_activity_picture_composable">PictureComposable</string>
+    <string name="title_activity_button_composable">ButtonComposable</string>
+    <string name="title_activity_choose_composable">ChooseComposable</string>
+    <string name="title_activity_dialog_composable">DIalogComposable</string>
+</resources>
